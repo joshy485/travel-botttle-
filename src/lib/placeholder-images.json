@@ -65,6 +65,12 @@
       "description": "A collection of different colored ONBOARD straps.",
       "imageUrl": "https://images.unsplash.com/photo-1630206005936-629f57dfa8eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9kdWN0JTIwY29sb3JzfGVufDB8fHx8MTc2NTkyODQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "product colors"
+    },
+    {
+      "id": "security-feature-image",
+      "description": "A suitcase with a water bottle attached by the ONBOARD strap going through airport security.",
+      "imageUrl": "https://images.unsplash.com/photo-1570303345338-e6b54b039c7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaXJwb3J0JTIwc2VjdXJpdHklMjBzY2FubmVyfGVufDB8fHx8MTc2NTk4Mzg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "airport security"
     }
   ]
 }
