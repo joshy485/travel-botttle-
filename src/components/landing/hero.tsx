@@ -41,7 +41,7 @@ export function Hero() {
         </Reveal>
         <Reveal delay={200}>
           <p className="mt-6 max-w-3xl text-lg text-foreground/80 sm:text-xl">
-            The ultimate travel companion that keeps you hydrated and locked, and your documents and gear secured ready for any adventure.
+            Keep your bottle and travel essentials secure and within reach  from check-in to touchdown.
           </p>
         </Reveal>
         <Reveal delay={400} className="w-full max-w-2xl mx-auto">
