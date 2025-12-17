@@ -1,0 +1,46 @@
+/**
+ * Core Philosophy: This ruleset implements a secure "write-only" or "append-only" model for capturing public email submissions. It is designed to function like a digital dropbox, allowing anyone to create a new email signup entry while strictly prohibiting any user from reading, updating, or deleting existing entries. This approach maximizes data capture from public sources while ensuring the privacy of the submitted information.
+ *
+ * Data Structure: All data is stored in a single, flat top-level collection: /emailSignups/{emailSignupId}. There are no user-specific subcollections or complex relationships.
+ *
+ * Key Security Decisions:
+ * - Public Creation: Aligns with the app's goal of email capture, allowing any user (including anonymous, unauthenticated ones) to create a document in the `emailSignups` collection. A minimal data check is performed to prevent empty writes.
+ * - Strict Privacy: All read access (`get`, `list`) is explicitly denied. This is a critical security measure to prevent the public leakage of a list of all submitted email addresses.
+ * - Immutability: All modification (`update`) and deletion (`delete`) operations are denied. Once an email is submitted, it cannot be altered or removed via the client SDKs, protecting data integrity.
+ *
+ * Denormalization for Authorization: Not applicable in this model, as there are no user accounts, roles, or ownership to denormalize. The security model is based on public write access and private read access.
+ *
+ * Structural Segregation: Not applicable, as all data in the collection shares the same security profile (publicly submittable, privately stored).
+ */
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    
+    /**
+     * Ensures a create request contains the essential fields for an email signup.
+     * This prevents completely empty or malformed documents from being created
+     * and satisfies the requirement that write operations are never fully open.
+     */
+    function isAttemptingSignup() {
+      return request.resource.data.keys().hasAll(['email', 'signupDate']);
+    }
+
+    /**
+     * @description Rules for the emailSignups collection, which acts as a public 'dropbox'. Anyone can submit (create) a new email signup, but no one can read, modify, or delete existing entries to protect privacy.
+     * @path /emailSignups/{emailSignupId}
+     * @allow (create) An anonymous user submitting their email via a public web form.
+     * @deny (get) Any user, authenticated or not, trying to read a specific signup document.
+     * @deny (list) Any user trying to retrieve the list of all submitted emails.
+     * @principle Implements a 'write-only' pattern for public data submission, prioritizing submitter privacy by denying all read and modification access.
+     */
+    match /emailSignups/{emailSignupId} {
+      allow get: if false;
+      allow list: if false;
+      allow create: if isAttemptingSignup();
+      allow update: if false;
+      allow delete: if false;
+    }
+  }
+}

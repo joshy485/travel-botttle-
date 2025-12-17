@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "EmailSignup": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "EmailSignup",
+      "type": "object",
+      "description": "Represents an email signup for the ONBOARD: Travel Hydration, Secured app.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the EmailSignup entry."
+        },
+        "email": {
+          "type": "string",
+          "description": "The email address of the user who signed up.",
+          "format": "email"
+        },
+        "signupDate": {
+          "type": "string",
+          "description": "The date and time the user signed up.",
+          "format": "date-time"
+        },
+        "source": {
+          "type": "string",
+          "description": "Indicates the source of the signup (e.g., landing page, social media)."
+        }
+      },
+      "required": [
+        "id",
+        "email",
+        "signupDate"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/emailSignups/{emailSignupId}",
+        "definition": {
+          "entityName": "EmailSignup",
+          "schema": {
+            "$ref": "#/backend/entities/EmailSignup"
+          },
+          "description": "Stores email signup information. The 'emailSignupId' is a unique identifier for each signup. The security rules should validate the data and potentially limit write access based on rate limiting.",
+          "params": [
+            {
+              "name": "emailSignupId",
+              "description": "Unique identifier for the EmailSignup document."
+            }
+          ]
+        }
+      }
+    ],
+    "reasoning": "Based on the requirement to capture email signups, I recommend a straightforward collection to store the `EmailSignup` entities. The structure prioritizes simplicity and directness, suitable for an email capture form. Since authorization is not explicitly defined beyond potentially securing the database itself (preventing unauthorized access as mentioned in 'Database Integration'), and given the auth providers (password and anonymous), the security rules will primarily focus on validating data format and potentially limiting write access based on rate limiting (handled outside of the data structure itself). We do not have user based private data or collaboration required.\n\nThe solution below:\n*   Uses a single collection, `/emailSignups`, to store all email signup documents.\n*   Relies on Firebase Authentication and Security Rules to protect the data from unauthorized access and ensure data integrity."
+  }
+}
