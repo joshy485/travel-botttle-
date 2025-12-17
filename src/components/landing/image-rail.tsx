@@ -32,7 +32,7 @@ export function ImageRail() {
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">For Every Leg of the Journey</h2>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              From the airport security line to the mountain peak, ONBOARD is with you.
+              From the airport terminal to the mountain trail, ONBOARD is with you.
             </p>
           </div>
         </Reveal>
