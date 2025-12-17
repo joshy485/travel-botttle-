@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container mx-auto py-24 sm:py-32">
         <div className="flex flex-col items-center text-center">
             <Link href="/" className="flex items-center gap-2 font-bold">
-              <OnboardLogo />
+              <OnboardLogo className="w-[220px] h-auto" />
             </Link>
             <div className="mt-8">
               <Button asChild size="lg">
