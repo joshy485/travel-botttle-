@@ -41,7 +41,7 @@ export function Hero() {
         </Reveal>
         <Reveal delay={200}>
           <p className="mt-6 max-w-3xl text-lg text-foreground/80 sm:text-xl">
-            Never lose your water bottle again. ONBOARD is the ultimate travel companion that keeps your hydration locked in and ready for any adventure. Sign up for launch updates and an exclusive early bird discount.
+            The ultimate travel companion that keeps you hydrated and locked, and your documents and gear secured ready for any adventure.
           </p>
         </Reveal>
         <Reveal delay={400} className="w-full max-w-2xl mx-auto">
