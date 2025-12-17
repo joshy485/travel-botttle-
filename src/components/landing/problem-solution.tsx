@@ -57,7 +57,7 @@ export function ProblemSolution() {
                 </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground/80">
-                  ONBOARD is engineered differently. It locks your bottle to a single, reinforced anchor point at the base of your bag. This creates a low center of gravity, ensuring your bottle stays perfectly balanced and secure—no matter how you move.
+                  ONBOARD is engineered differently. It locks your bottle to a single, reinforced anchor point at the base of your bag. This creates a low center of gravity, ensuring your bottle stays perfectly balanced and secure no matter how you move.
                 </p>
                 <div>
                     <h4 className="font-semibold text-foreground/90">Move effortlessly with essentials like:</h4>
