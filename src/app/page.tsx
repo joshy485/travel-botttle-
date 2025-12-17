@@ -5,7 +5,6 @@ import { Features } from '@/components/landing/features';
 import { SecurityFeature } from '@/components/landing/security-feature';
 import { HowItWorks } from '@/components/landing/how-it-works';
 import { ImageRail } from '@/components/landing/image-rail';
-import { LifestyleFeature } from '@/components/landing/lifestyle-feature';
 import { Footer } from '@/components/landing/footer';
 
 export default function Home() {
@@ -19,7 +18,6 @@ export default function Home() {
         <SecurityFeature />
         <HowItWorks />
         <ImageRail />
-        <LifestyleFeature />
       </main>
       <Footer />
     </div>
