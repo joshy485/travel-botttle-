@@ -2,11 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { ChevronRight } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Reveal } from '../shared/reveal';
+import { EmailCaptureForm } from './email-capture-form';
 
 export function Hero() {
   const [offsetY, setOffsetY] = useState(0);
@@ -22,7 +20,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] w-full flex items-center justify-center text-center overflow-hidden">
+    <section className="relative h-auto min-h-[700px] w-full flex items-center justify-center text-center overflow-hidden py-24 sm:py-32">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -42,19 +40,12 @@ export function Hero() {
           </h1>
         </Reveal>
         <Reveal delay={200}>
-          <p className="mt-6 max-w-2xl text-lg text-foreground/80 sm:text-xl">
-            Never lose your water bottle again. ONBOARD is the ultimate travel companion that keeps your hydration locked in and ready for any adventure.
+          <p className="mt-6 max-w-3xl text-lg text-foreground/80 sm:text-xl">
+            Never lose your water bottle again. ONBOARD is the ultimate travel companion that keeps your hydration locked in and ready for any adventure. Sign up for launch updates and an exclusive early bird discount.
           </p>
         </Reveal>
-        <Reveal delay={400}>
-          <div className="mt-10">
-            <Button asChild size="lg" className="group">
-              <Link href="#early-access">
-                Get Early Access
-                <ChevronRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </Link>
-            </Button>
-          </div>
+        <Reveal delay={400} className="w-full max-w-2xl mx-auto">
+          <EmailCaptureForm />
         </Reveal>
       </div>
     </section>
