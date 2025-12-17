@@ -24,7 +24,7 @@ export function SecurityFeature() {
                   Stop juggling loose items at the security checkpoint. ONBOARD keeps your water bottle and small essentials securely attached to your carry-on, so everything moves through the scanner together.
                 </p>
                 <p className="mt-4 text-lg leading-8 text-muted-foreground">
-                  When you need to detach, the quick-release buckle lets you remove your bottle in seconds—no stress, no delays. Travel smarter. Move faster.
+                  When you need to detach, the quick-release buckle lets you remove your bottle in seconds, no stress, no delays. Travel smarter. Move faster.
                 </p>
               </div>
             </div>
