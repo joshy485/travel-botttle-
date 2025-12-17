@@ -6,6 +6,7 @@ import { SecurityFeature } from '@/components/landing/security-feature';
 import { HowItWorks } from '@/components/landing/how-it-works';
 import { ImageRail } from '@/components/landing/image-rail';
 import { Footer } from '@/components/landing/footer';
+import { FullWidthImage } from '@/components/landing/full-width-image';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <ProblemSolution />
         <Features />
         <SecurityFeature />
+        <FullWidthImage />
         <HowItWorks />
         <ImageRail />
       </main>
