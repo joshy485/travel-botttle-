@@ -43,34 +43,22 @@
       "imageHint": "strap adjust"
     },
     {
-      "id": "rail-image-1",
-      "description": "A traveler walking through an airport with their bag.",
-      "imageUrl": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0cmF2ZWxlciUyMGFpcnBvcnR8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "traveler airport"
-    },
-    {
       "id": "rail-image-2",
       "description": "The ONBOARD strap on a carry-on bag in an overhead locker.",
       "imageUrl": "/images/Generated Image December 17, 2025 - 11_12AM.jpeg",
       "imageHint": "overhead locker"
     },
     {
-      "id": "rail-image-3",
-      "description": "A person drinking from their water bottle while hiking.",
-      "imageUrl": "https://images.unsplash.com/photo-1546365812-a885f8d0e7ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoaWtpbmclMjB3YXRlcnxlbnwwfHx8fDE3NjU5Mjg0NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hiking water"
-    },
-    {
-      "id": "rail-image-4",
-      "description": "A collection of different colored ONBOARD straps.",
-      "imageUrl": "https://images.unsplash.com/photo-1679785551521-0c0450b467b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9kdWN0JTIwY29sb3JzfGVufDB8fHx8MTc2NTkyODQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "product colors"
-    },
-    {
       "id": "security-feature-image",
       "description": "A suitcase with a water bottle attached by the ONBOARD strap going through airport security.",
       "imageUrl": "/images/Generated Image December 17, 2025 - 10_17AM (1).jpeg",
       "imageHint": "airport security"
+    },
+    {
+      "id": "full-width-journey",
+      "description": "A traveler with their luggage featuring the ONBOARD product.",
+      "imageUrl": "/images/Generated Image December 17, 2025 - 12_04PM.jpeg",
+      "imageHint": "traveler luggage"
     }
   ]
 }
