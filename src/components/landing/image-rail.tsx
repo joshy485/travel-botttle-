@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Reveal } from '../shared/reveal';
 
-const railImageIds = ['rail-image-1', 'rail-image-2'];
+const railImageIds = ['rail-image-2'];
 
 export function ImageRail() {
   const railImages = PlaceHolderImages.filter(img => railImageIds.includes(img.id));
@@ -21,19 +21,19 @@ export function ImageRail() {
           </div>
         </Reveal>
 
-        <div className="mt-20 relative grid grid-cols-1 md:grid-cols-2 gap-8 h-auto">
+        <div className="mt-20 flex justify-center">
           {railImages.map((image) => {
             return (
               <div
                 key={image.id}
-                className="relative aspect-square rounded-lg overflow-hidden shadow-2xl"
+                className="relative aspect-video w-full max-w-4xl rounded-lg overflow-hidden shadow-2xl"
               >
                 <Image
                   src={image.imageUrl}
                   alt={image.description}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, 896px"
                   data-ai-hint={image.imageHint}
                 />
               </div>
