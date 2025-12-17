@@ -6,7 +6,7 @@ import { ChevronRight } from 'lucide-react';
 export function Footer() {
   return (
     <footer id="early-access" className="bg-secondary/50 border-t border-border">
-      <div className="container mx-auto py-24 sm:py-32">
+      <div className="container mx-auto py-16 sm:py-24">
         <div className="flex flex-col items-center text-center">
             <Link href="/" className="flex items-center gap-2 font-bold">
               <OnboardLogo className="w-[220px] h-auto" />
