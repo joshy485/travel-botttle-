@@ -13,13 +13,6 @@ export function LifestyleFeature() {
     document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const scrollToEmail = () => {
-    const hero = document.querySelector('section');
-    if (hero) {
-      hero.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section className="py-24 sm:py-32 bg-secondary">
       <div className="container mx-auto">
@@ -47,7 +40,7 @@ export function LifestyleFeature() {
               </p>
             </Reveal>
              <Reveal delay={400} className="mt-8">
-                <Button size="lg" onClick={scrollToEmail} className="group">
+                <Button size="lg" onClick={scrollToTop} className="group">
                   Get Early Access
                   <ArrowUp className="ml-2 h-4 w-4 transition-transform group-hover:-translate-y-1" />
                 </Button>
