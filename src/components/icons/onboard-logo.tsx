@@ -3,10 +3,10 @@ import { cn } from '@/lib/utils';
 
 export const OnboardLogo = ({ className }: { className?: string }) => (
   <Image
-    src="/images/Untitled Project.png"
+    src="/images/Image December 17, 2025 - 1_16PM.jpeg"
     alt="ONBOARD Logo"
-    width={32}
+    width={120}
     height={32}
-    className={cn('h-8 w-8', className)}
+    className={cn('object-contain', className)}
   />
 );
