@@ -58,13 +58,13 @@ export function Features() {
         
         {featureImage && (
           <Reveal>
-            <div className="mt-24 relative aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl">
+            <div className="mt-24 relative aspect-video w-full max-w-6xl mx-auto rounded-lg overflow-hidden shadow-2xl">
               <Image
                 src={featureImage.imageUrl}
                 alt={featureImage.description}
                 fill
                 className="object-cover"
-                sizes="(max-width: 768px) 100vw, 1024px"
+                sizes="(max-width: 768px) 100vw, 1280px"
                 data-ai-hint={featureImage.imageHint}
               />
             </div>
