@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "A person at an airport terminal looking out the window at a plane.",
-      "imageUrl": "/Generated Image December 17, 2025 - 12_04PM.jpeg",
+      "imageUrl": "/images/Generated Image December 17, 2025 - 12_04PM.jpeg",
       "imageHint": "airport window"
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": "how-it-works-1",
       "description": "Step 1: Loop the strap through the bottle handle.",
-      "imageUrl": "https://images.unsplash.com/photo-1591226219970-ccac31e47ce5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHJhcCUyMGxvb3B8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1563179186-606d6977c669?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdHJhcCUyMGxvb3B8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "strap loop"
     },
     {
@@ -50,9 +50,9 @@
     },
     {
       "id": "rail-image-2",
-      "description": "Close-up of the ONBOARD buckle.",
-      "imageUrl": "https://images.unsplash.com/photo-1694795457165-e5306ff0b9ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidWNrbGUlMjBjbG9zZXVwfGVufDB8fHx8MTc2NTkyODQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "buckle closeup"
+      "description": "A person drinking from their water bottle while hiking.",
+      "imageUrl": "/images/Generated Image December 17, 2025 - 11_12AM.jpeg",
+      "imageHint": "hiking water"
     },
     {
       "id": "rail-image-3",
