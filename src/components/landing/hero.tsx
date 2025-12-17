@@ -20,7 +20,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative h-auto min-h-[700px] w-full flex items-center justify-center text-center overflow-hidden py-24 sm:py-32">
+    <section id="hero" className="relative h-auto min-h-[700px] w-full flex items-center justify-center text-center overflow-hidden py-24 sm:py-32">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
