@@ -11,17 +11,17 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 font-bold">
               <OnboardLogo />
             </Link>
-            <p className="mt-4 text-muted-foreground max-w-sm">
-              The ultimate solution to keep your water bottle secure and accessible while you travel.
-            </p>
             <div className="mt-8">
-              <Button asChild>
+              <Button asChild size="lg">
                 <Link href="#hero" className="group">
                   Get Early Access
                   <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
             </div>
+            <p className="mt-8 text-muted-foreground max-w-sm">
+              The ultimate solution to keep your water bottle secure and accessible while you travel.
+            </p>
             <div className="mt-8 text-sm text-muted-foreground">
               © {new Date().getFullYear()} ONBOARD. All rights reserved.
             </div>
