@@ -21,10 +21,10 @@ export function SecurityFeature() {
                   Breeze Through Security
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-muted-foreground">
-                  Stop juggling your items at the security checkpoint. The ONBOARD strap keeps your bottle attached to your bag, so you can send them through the scanner together. It's one less thing to worry about.
+                  Stop juggling loose items at the security checkpoint. ONBOARD keeps your water bottle and small essentials securely attached to your carry-on, so everything moves through the scanner together.
                 </p>
                 <p className="mt-4 text-lg leading-8 text-muted-foreground">
-                    Our quick-release buckle means you can easily detach your bottle if needed, without any fuss. Travel smarter, not harder.
+                  When you need to detach, the quick-release buckle lets you remove your bottle in seconds—no stress, no delays. Travel smarter. Move faster.
                 </p>
               </div>
             </div>
