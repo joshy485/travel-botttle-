@@ -6,17 +6,17 @@ const steps = [
   {
     id: 'how-it-works-1',
     name: 'Loop It',
-    description: 'Thread the ONBOARD strap through your bottle’s handle for a secure starting point.',
+    description: 'Secure the holder straps through your carry-on’s top and side handles to attach the holder to your bag.',
   },
   {
     id: 'how-it-works-2',
-    name: 'Clip It',
-    description: 'Attach the high-strength carabiner to your bag, belt loop, or any other anchor point.',
+    name: 'Secure It',
+    description: 'Adjust the straps so the holder sits firmly against the side of your carry-on.',
   },
   {
     id: 'how-it-works-3',
     name: 'Lock It',
-    description: 'Adjust the strap for a snug fit. Your bottle is now securely ONBOARD.',
+    description: 'Pull the straps tight and lock them in place. Your bottle is now securely ONBOARD.',
   },
 ];
 
