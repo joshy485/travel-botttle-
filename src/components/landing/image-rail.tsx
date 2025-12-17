@@ -32,7 +32,7 @@ export function ImageRail() {
                   src={image.imageUrl}
                   alt={image.description}
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 896px"
                   data-ai-hint={image.imageHint}
                 />
