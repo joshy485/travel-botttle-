@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Reveal } from '../shared/reveal';
