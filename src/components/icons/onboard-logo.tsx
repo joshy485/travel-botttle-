@@ -7,6 +7,6 @@ export const OnboardLogo = ({ className }: { className?: string }) => (
     alt="ONBOARD Logo"
     width={120}
     height={32}
-    className={cn('object-contain', className)}
+    className={cn('object-contain mix-blend-screen', className)}
   />
 );
