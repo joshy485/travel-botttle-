@@ -24,7 +24,7 @@ export function ProblemSolution() {
                     <h3 className="text-2xl font-semibold text-foreground">The Problem: Unreliable Storage</h3>
                 </div>
                 <p className="text-muted-foreground">
-                    Most carry-on bags were never designed for modern water bottles. Side pockets are loose and unstable, causing your bottle to tilt, swing, or fall out entirely with one sharp movement.
+                    Most carry-on bags were never designed for modern water bottles or easy access to them. Bottles end up buried inside your bag or loosely tucked into side pockets, forcing you to stop, unzip, dig around, and repack every time you want a drink. Over the course of a trip, that friction adds up.
                 </p>
                 <div className="space-y-4">
                     <h4 className="font-semibold text-foreground">This leads to:</h4>
