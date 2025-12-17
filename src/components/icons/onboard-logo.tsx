@@ -5,8 +5,8 @@ export const OnboardLogo = ({ className }: { className?: string }) => (
   <Image
     src="/images/Untitled Project (1).png"
     alt="ONBOARD Logo"
-    width={150}
-    height={40}
+    width={180}
+    height={48}
     className={cn('object-contain', className)}
   />
 );
