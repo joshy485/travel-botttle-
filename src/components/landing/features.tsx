@@ -15,7 +15,7 @@ const features = [
   {
     icon: <Settings className="h-6 w-6" />,
     name: 'Universal Compatibility',
-    description: 'Adjustable strap fits any bottle handle and attaches to any backpack, suitcase, or tote.',
+    description: 'The adjustable strap fits any bottle handle, including your favorite Yeti Rambler or Stanley cup, and attaches to any backpack, suitcase, or tote.',
   },
   {
     icon: <Plane className="h-6 w-6" />,
