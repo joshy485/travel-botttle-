@@ -10,7 +10,7 @@ export function ProblemSolution() {
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">The Traveler’s Dilemma</h2>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
-             You know the moment. A sudden stop, a tight squeeze, and your bottle slips out of your bag — gone.
+              That familiar, sinking feeling as your water bottle slips from your bag and skids across the terminal floor.
             </p>
           </div>
         </Reveal>
@@ -24,22 +24,22 @@ export function ProblemSolution() {
                     <h3 className="text-2xl font-semibold text-foreground">The Problem: Unreliable Storage</h3>
                 </div>
                 <p className="text-muted-foreground">
-                    Most bags weren’t designed to securely carry bottles. Side pockets stretch. Inner pockets tip. One sharp movement and your bottle is on the floor — or left behind entirely.
+                    Most carry-on bags were never designed for modern water bottles. Side pockets are loose and unstable, causing your bottle to tilt, swing, or fall out entirely with one sharp movement.
                 </p>
                 <div className="space-y-4">
-                    <h4 className="font-semibold text-foreground">That means:</h4>
+                    <h4 className="font-semibold text-foreground">This leads to:</h4>
                     <ul className="space-y-3 text-muted-foreground">
                         <li className="flex items-start gap-3">
                             <XCircle className="h-5 w-5 text-destructive mt-1 shrink-0" />
-                            <span>Scrambling through the airport</span>
+                            <span>Stressful scrambles through the airport.</span>
                         </li>
                         <li className="flex items-start gap-3">
                              <XCircle className="h-5 w-5 text-destructive mt-1 shrink-0" />
-                            <span>Losing hydration mid-journey</span>
+                            <span>Losing your favorite bottle mid-journey.</span>
                         </li>
                         <li className="flex items-start gap-3">
                              <XCircle className="h-5 w-5 text-destructive mt-1 shrink-0" />
-                            <span>Buying another plastic bottle you didn’t plan on</span>
+                            <span>Buying expensive, single-use plastic at the gate.</span>
                         </li>
                     </ul>
                 </div>
@@ -57,27 +57,27 @@ export function ProblemSolution() {
                 </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-foreground/80">
-                  ONBOARD is built differently. It locks securely to the reinforced base point of your bag—not loose fabric or weak pockets—creating a stable, rock-solid anchor for your bottle.
+                  ONBOARD is engineered differently. It locks your bottle to a single, reinforced anchor point at the base of your bag. This creates a low center of gravity, ensuring your bottle stays perfectly balanced and secure—no matter how you move.
                 </p>
                 <div>
-                    <h4 className="font-semibold text-foreground/90">Move hands-free with essentials like:</h4>
+                    <h4 className="font-semibold text-foreground/90">Move effortlessly with essentials like:</h4>
                     <ul className="mt-3 space-y-2 text-foreground/80">
                          <li className="flex items-center gap-3">
                             <CheckCircle className="h-5 w-5 text-primary shrink-0" />
-                            <span>Passport & Travel Documents</span>
+                            <span>Passport &amp; Travel Documents</span>
                         </li>
                         <li className="flex items-center gap-3">
                             <CheckCircle className="h-5 w-5 text-primary shrink-0" />
-                            <span>AirPods & Earbuds</span>
+                            <span>AirPods &amp; Earbuds</span>
                         </li>
                         <li className="flex items-center gap-3">
                            <CheckCircle className="h-5 w-5 text-primary shrink-0" />
-                            <span>Other small travel items</span>
+                            <span>Keys &amp; Small Items</span>
                         </li>
                     </ul>
                 </div>
                 <p className="font-semibold text-foreground/90 !mt-6">
-                    No juggling. No pocket stuffing. No stress. Just secure carry, easy access, and peace of mind.
+                  No juggling. No distractions. Just calm, confident movement.
                 </p>
               </CardContent>
             </Card>
