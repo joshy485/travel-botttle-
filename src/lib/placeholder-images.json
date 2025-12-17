@@ -59,6 +59,12 @@
       "description": "A high-quality image showing the product in a travel setting.",
       "imageUrl": "/4K image. .jpeg",
       "imageHint": "travel lifestyle"
+    },
+    {
+      "id": "features-section-image",
+      "description": "A close-up shot of the ONBOARD strap and buckle.",
+      "imageUrl": "/images/Generated Image December 17, 2025 - 10_11AM.jpeg",
+      "imageHint": "product close-up"
     }
   ]
 }

@@ -1,5 +1,7 @@
 import { Gem, Settings, Zap, Plane } from 'lucide-react';
 import { Reveal } from '../shared/reveal';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const features = [
   {
@@ -25,6 +27,7 @@ const features = [
 ];
 
 export function Features() {
+  const featureImage = PlaceHolderImages.find(img => img.id === 'features-section-image');
   return (
     <section className="py-24 sm:py-32">
       <div className="container mx-auto">
@@ -52,6 +55,22 @@ export function Features() {
             ))}
           </dl>
         </div>
+        
+        {featureImage && (
+          <Reveal>
+            <div className="mt-24 relative aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl">
+              <Image
+                src={featureImage.imageUrl}
+                alt={featureImage.description}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 1024px"
+                data-ai-hint={featureImage.imageHint}
+              />
+            </div>
+          </Reveal>
+        )}
+
       </div>
     </section>
   );
