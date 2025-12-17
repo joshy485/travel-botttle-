@@ -3,73 +3,73 @@
     {
       "id": "hero-background",
       "description": "A person at an airport terminal looking out the window at a plane.",
-      "imageUrl": "https://images.unsplash.com/photo-1608802071280-6e3bd9231f6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhaXJwb3J0JTIwd2luZG93fGVufDB8fHx8MTc2NTgxNzMyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Generated Image December 17, 2025 - 10_11AM.jpeg",
       "imageHint": "airport window"
     },
     {
       "id": "bottle-on-bag",
       "description": "A water bottle securely attached to a backpack.",
-      "imageUrl": "https://images.unsplash.com/photo-1625220881635-e9fbc76b2f68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxib3R0bGUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NjU5Mjg0NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "bottle backpack"
     },
     {
       "id": "insecure-bottle",
       "description": "A water bottle falling out of a bag's side pocket.",
-      "imageUrl": "https://images.unsplash.com/photo-1625220881635-e9fbc76b2f68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxib3R0bGUlMjBmYWxsaW5nfGVufDB8fHx8MTc2NTkyODQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "bottle falling"
     },
     {
       "id": "secure-bottle",
       "description": "The ONBOARD strap securely holding a bottle.",
-      "imageUrl": "https://images.unsplash.com/photo-1696691719128-387cbdbb8e56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzZWN1cmUlMjBib3R0bGV8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "secure bottle"
     },
     {
       "id": "how-it-works-1",
       "description": "Step 1: Loop the strap through the bottle handle.",
-      "imageUrl": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHJhcCUyMGxvb3B8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "strap loop"
     },
     {
       "id": "how-it-works-2",
       "description": "Step 2: Attach the strap to your bag.",
-      "imageUrl": "https://picsum.photos/seed/how2/600/600",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "strap attach"
     },
     {
       "id": "how-it-works-3",
       "description": "Step 3: Adjust for a snug fit.",
-      "imageUrl": "https://images.unsplash.com/photo-1614142080919-254ea9771dde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHJhcCUyMGFkanVzdHxlbnwwfHx8fDE3NjU5Mjg0NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "strap adjust"
     },
     {
       "id": "rail-image-1",
       "description": "A traveler walking through an airport with their bag.",
-      "imageUrl": "https://images.unsplash.com/photo-1647206826900-c7261955eeaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0cmF2ZWxlciUyMGFpcnBvcnR8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "traveler airport"
     },
     {
       "id": "rail-image-2",
       "description": "Close-up of the ONBOARD buckle.",
-      "imageUrl": "https://images.unsplash.com/photo-1682877785769-6ffcb71ec387?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxidWNrbGUlMjBjbG9zZXVwfGVufDB8fHx8MTc2NTkyODQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f5s75bb9c940da82f6c9764dr.png",
       "imageHint": "buckle closeup"
     },
     {
       "id": "rail-image-3",
       "description": "A person drinking from their water bottle while hiking.",
-      "imageUrl": "https://images.unsplash.com/photo-1578588585136-773968da2cee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGlraW5nJTIwd2F0ZXJ8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "hiking water"
     },
     {
       "id": "rail-image-4",
       "description": "A collection of different colored ONBOARD straps.",
-      "imageUrl": "https://images.unsplash.com/photo-1601056639638-c53c50e13ead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9kdWN0JTIwY29sb3JzfGVufDB8fHx8MTc2NTkyODQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "product colors"
     },
     {
       "id": "security-feature-image",
       "description": "A suitcase with a water bottle attached by the ONBOARD strap going through airport security.",
-      "imageUrl": "https://images.unsplash.com/photo-1580795478762-1f6b61f2fae7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaXJwb3J0JTIwc2VjdXJpdHl8ZW58MHx8fHwxNzY1OTI5Mjc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Whisk_935a5efb63f575bb9c940da82f6c9764dr.png",
       "imageHint": "airport security"
     }
   ]
