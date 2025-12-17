@@ -1,9 +1,8 @@
 "use server";
 
 import { z } from "zod";
-// I will assume firebase config exists, but won't create it as it contains secrets.
-// import { db } from "@/lib/firebase";
-// import { collection, addDoc, serverTimestamp } from "firebase/firestore";
+import { db } from "@/lib/firebase";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 const subscribeSchema = z.object({
   email: z.string().email({ message: "Please enter a valid email address." }),
@@ -33,17 +32,11 @@ export async function subscribeToNewsletter(prevState: any, formData: FormData) 
   const { email } = validatedFields.data;
 
   try {
-    // ---- Firebase Integration ----
-    // This is where you would add the logic to save to Firebase.
-    // Example using Firestore:
-    //
-    // await addDoc(collection(db, "subscribers"), {
-    //   email: email,
-    //   subscribedAt: serverTimestamp(),
-    // });
-    //
-    // Since I can't configure Firebase, I'll simulate a successful submission.
-    console.log(`New subscription from: ${email}`);
+    await addDoc(collection(db, "emailSignups"), {
+      email: email,
+      signupDate: serverTimestamp(),
+      source: "landing-page",
+    });
 
     return {
       message: "Thank you for subscribing! We'll be in touch.",
@@ -51,6 +44,7 @@ export async function subscribeToNewsletter(prevState: any, formData: FormData) 
     };
   } catch (error) {
     console.error("Subscription error:", error);
+    // In a real app, you might want to log this to a service like Sentry
     return {
       message: "Something went wrong. Please try again later.",
       success: false,
