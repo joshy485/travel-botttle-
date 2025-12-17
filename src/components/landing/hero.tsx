@@ -27,7 +27,7 @@ export function Hero() {
           alt={heroImage.description}
           fill
           priority
-          className="object-cover z-0"
+          className="object-cover object-bottom sm:object-center z-0"
           style={{ transform: `translateY(${offsetY * 0.3}px)` }}
           data-ai-hint={heroImage.imageHint}
         />
