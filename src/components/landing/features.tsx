@@ -4,23 +4,23 @@ import { Reveal } from '../shared/reveal';
 const features = [
   {
     icon: <Zap className="h-6 w-6" />,
-    name: 'Quick-Release Buckle',
-    description: 'Instant access to your bottle with a one-handed click. Security meets convenience.',
+    name: 'Quick-Release Access',
+    description: 'A quick-release buckle, designed for smooth, one-handed use. Grab or stow your bottle in seconds, even while on the move.',
   },
   {
     icon: <Gem className="h-6 w-6" />,
-    name: 'Premium Materials',
-    description: 'Crafted from aircraft-grade aluminum and durable woven nylon for a lifetime of travel.',
+    name: 'Durable Nylon Construction',
+    description: 'Crafted from high-strength woven nylon and reinforced, travel-grade plastics. Lightweight, flexible, and built for a lifetime of use.',
   },
   {
     icon: <Settings className="h-6 w-6" />,
-    name: 'Universal Compatibility',
-    description: 'The adjustable strap fits any bottle handle, including your favorite Yeti Rambler or Stanley cup, and attaches to any backpack, suitcase, or tote.',
+    name: 'Universal Bottle Compatibility',
+    description: 'The adjustable strap fits most modern bottles with handles, including popular styles like Yeti® and Stanley®, and secures directly to your carry-on.',
   },
   {
     icon: <Plane className="h-6 w-6" />,
-    name: 'Travel-Optimized Design',
-    description: 'Sleek, lightweight, and TSA-friendly. Designed by travelers, for travelers.',
+    name: 'Carry-On Optimized Design',
+    description: 'Slim, lightweight, and TSA-friendly. Purpose-built for rolling carry-on suitcases, keeping your bottle stable and accessible from terminal to gate.',
   },
 ];
 
