@@ -57,7 +57,7 @@ export function EmailCaptureForm() {
                 id="email"
                 placeholder="Enter your email"
                 required
-                className="h-12 text-base border-2 border-foreground/30"
+                className="h-12 text-base border-2 border-border focus:border-primary"
                 aria-label="Email address"
             />
         </div>
