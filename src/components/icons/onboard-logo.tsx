@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 
 export const OnboardLogo = ({ className }: { className?: string }) => (
   <Image
-    src="/images/onboard-logo.png"
+    src="/images/Untitled Project (1).png"
     alt="ONBOARD Logo"
     width={180}
     height={48}
