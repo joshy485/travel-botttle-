@@ -2,69 +2,51 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A person at an airport terminal looking out the window at a plane.",
+      "description": "Airport terminal hero image",
       "imageUrl": "/images/hero.jpg",
-      "imageHint": "airport window"
-    },
-    {
-      "id": "bottle-on-bag",
-      "description": "A water bottle securely attached to a backpack.",
-      "imageUrl": "https://images.unsplash.com/photo-1605790923776-2f3649ed871a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib3R0bGUlMjBiYWNrcGFja3xlbnwwfHx8fDE3NjU5Mjg0NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bottle backpack"
-    },
-    {
-      "id": "insecure-bottle",
-      "description": "A water bottle falling out of a bag's side pocket.",
-      "imageUrl": "https://images.unsplash.com/photo-1627496596114-1ea8ef3463ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxib3R0bGUlMjBmYWxsaW5nfGVufDB8fHx8MTc2NTkyODQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bottle falling"
-    },
-    {
-      "id": "secure-bottle",
-      "description": "The ONBOARD strap securely holding a bottle.",
-      "imageUrl": "https://images.unsplash.com/photo-1696691719062-ff7e51411ea0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZWN1cmUlMjBib3R0bGV8ZW58MHx8fHwxNzY1OTI4NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "secure bottle"
+      "imageHint": "airport terminal plane"
     },
     {
       "id": "how-it-works-1",
       "description": "Step 1: Loop It",
       "imageUrl": "/images/how-1.jpg",
-      "imageHint": "strap loop"
+      "imageHint": "luggage strap loop"
     },
     {
       "id": "how-it-works-2",
       "description": "Step 2: Secure It",
       "imageUrl": "/images/how-2.jpg",
-      "imageHint": "strap attach"
+      "imageHint": "secure luggage strap"
     },
     {
       "id": "how-it-works-3",
       "description": "Step 3: Lock It",
       "imageUrl": "/images/how-3.jpg",
-      "imageHint": "strap adjust"
-    },
-    {
-      "id": "rail-image-2",
-      "description": "The ONBOARD strap on a carry-on bag in an overhead locker.",
-      "imageUrl": "/images/overhead.jpg",
-      "imageHint": "overhead locker"
+      "imageHint": "lock luggage strap"
     },
     {
       "id": "security-feature-image",
-      "description": "A suitcase with a water bottle attached by the ONBOARD strap going through airport security.",
+      "description": "Suitcase going through airport security",
       "imageUrl": "/images/security.jpg",
-      "imageHint": "airport security"
+      "imageHint": "airport security suitcase"
     },
     {
-      "id": "full-width-journey",
-      "description": "A high-quality image showing the product in a travel setting.",
-      "imageUrl": "/images/journey.jpg",
-      "imageHint": "travel lifestyle"
+      "id": "rail-image-2",
+      "description": "Overhead locker luggage",
+      "imageUrl": "/images/overhead.jpg",
+      "imageHint": "overhead locker luggage"
     },
     {
       "id": "features-section-image",
-      "description": "A close-up shot of the ONBOARD strap and buckle.",
+      "description": "Close-up of strap and buckle",
       "imageUrl": "/images/features.jpg",
-      "imageHint": "product close-up"
+      "imageHint": "luggage strap close up"
+    },
+    {
+      "id": "full-width-journey",
+      "description": "Travel lifestyle image",
+      "imageUrl": "/images/journey.jpg",
+      "imageHint": "travel lifestyle airport"
     }
   ]
 }
