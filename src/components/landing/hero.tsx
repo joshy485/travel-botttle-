@@ -31,6 +31,7 @@ export function Hero() {
           className="object-cover object-[center_60%] z-0"
           style={{ transform: `translateY(${offsetY * 0.3}px)` }}
           data-ai-hint={heroImage.imageHint}
+          sizes="100vw"
         />
       )}
       <div className="absolute inset-0 bg-background/70 z-10" />
