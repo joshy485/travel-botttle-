@@ -1,3 +1,4 @@
+
 import { Gem, Settings, Zap, Plane } from 'lucide-react';
 import { Reveal } from '../shared/reveal';
 import Image from 'next/image';
