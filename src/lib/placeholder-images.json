@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "A person at an airport terminal looking out the window at a plane.",
-      "imageUrl": "/images/Generated Image December 17, 2025 - 11_12AM.jpeg",
+      "imageUrl": "/images/hero.jpg",
       "imageHint": "airport window"
     },
     {
@@ -27,43 +27,43 @@
     {
       "id": "how-it-works-1",
       "description": "Step 1: Loop It",
-      "imageUrl": "/images/Screenshot 2025-12-17 142933.png",
+      "imageUrl": "/images/how-1.jpg",
       "imageHint": "strap loop"
     },
     {
       "id": "how-it-works-2",
       "description": "Step 2: Secure It",
-      "imageUrl": "/images/Generated Image December 17, 2025 - 10_17AM (1).jpeg",
+      "imageUrl": "/images/how-2.jpg",
       "imageHint": "strap attach"
     },
     {
       "id": "how-it-works-3",
       "description": "Step 3: Lock It",
-      "imageUrl": "/images/Untitled Project (1).png",
+      "imageUrl": "/images/how-3.jpg",
       "imageHint": "strap adjust"
     },
     {
       "id": "rail-image-2",
       "description": "The ONBOARD strap on a carry-on bag in an overhead locker.",
-      "imageUrl": "/images/Generated Image December 17, 2025 - 2_43PM.jpeg",
+      "imageUrl": "/images/overhead.jpg",
       "imageHint": "overhead locker"
     },
     {
       "id": "security-feature-image",
       "description": "A suitcase with a water bottle attached by the ONBOARD strap going through airport security.",
-      "imageUrl": "/images/Screenshot 2025-12-17 142451.png",
+      "imageUrl": "/images/security.jpg",
       "imageHint": "airport security"
     },
     {
       "id": "full-width-journey",
       "description": "A high-quality image showing the product in a travel setting.",
-      "imageUrl": "/images/4K image..jpeg",
+      "imageUrl": "/images/journey.jpg",
       "imageHint": "travel lifestyle"
     },
     {
       "id": "features-section-image",
       "description": "A close-up shot of the ONBOARD strap and buckle.",
-      "imageUrl": "/images/Generated Image December 17, 2025 - 11_17AM.jpeg",
+      "imageUrl": "/images/features.jpg",
       "imageHint": "product close-up"
     }
   ]
