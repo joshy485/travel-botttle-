@@ -1,11 +1,22 @@
+import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Reveal } from "../shared/reveal";
+import { ShieldCheck } from "lucide-react";
 
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Reveal } from '../shared/reveal';
-import { ShieldCheck } from 'lucide-react';
+function isValidImageSrc(src: unknown): src is string {
+  if (typeof src !== "string") return false;
+  const s = src.trim();
+  if (!s) return false;
+  if (s === "fill" || s === "fill:" || s.startsWith("/fill")) return false;
+  // allow local public assets or https URLs
+  return s.startsWith("/") || s.startsWith("https://");
+}
 
 export function SecurityFeature() {
-  const image = PlaceHolderImages.find(img => img.id === 'security-feature-image');
+  const image = PlaceHolderImages.find((img) => img.id === "security-feature-image");
+
+  const src = image?.imageUrl;
+  const canRender = image && isValidImageSrc(src);
 
   return (
     <section className="py-24 sm:py-32">
@@ -15,8 +26,8 @@ export function SecurityFeature() {
             <div className="lg:pr-8">
               <div className="max-w-xl">
                 <div className="flex items-center gap-3 text-primary">
-                    <ShieldCheck className="h-8 w-8" />
-                    <p className="text-lg font-semibold">TSA Friendly</p>
+                  <ShieldCheck className="h-8 w-8" />
+                  <p className="text-lg font-semibold">TSA Friendly</p>
                 </div>
                 <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
                   Breeze Through Security
@@ -30,19 +41,20 @@ export function SecurityFeature() {
               </div>
             </div>
           </Reveal>
+
           <Reveal delay={200}>
-            {image && (
+            {canRender ? (
               <div className="relative aspect-video w-full overflow-hidden rounded-lg shadow-2xl">
                 <Image
-                  src={image.imageUrl}
-                  alt={image.description}
+                  src={src}
+                  alt={image.description ?? "Security feature image"}
                   fill
                   className="object-contain sm:object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   data-ai-hint={image.imageHint}
                 />
               </div>
-            )}
+            ) : null}
           </Reveal>
         </div>
       </div>
