@@ -3,49 +3,49 @@
     {
       "id": "hero-background",
       "description": "Airport terminal hero image",
-      "imageUrl": "/images/hero.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Fhero.jpg?alt=media",
       "imageHint": "airport terminal plane"
     },
     {
       "id": "how-it-works-1",
       "description": "Step 1: Loop It",
-      "imageUrl": "/images/how-1.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Fhow-1.jpg?alt=media",
       "imageHint": "luggage strap loop"
     },
     {
       "id": "how-it-works-2",
       "description": "Step 2: Secure It",
-      "imageUrl": "/images/how-2.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Fhow-2.jpg?alt=media",
       "imageHint": "secure luggage strap"
     },
     {
       "id": "how-it-works-3",
       "description": "Step 3: Lock It",
-      "imageUrl": "/images/how-3.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Fhow-3.jpg?alt=media",
       "imageHint": "lock luggage strap"
     },
     {
       "id": "security-feature-image",
       "description": "Suitcase going through airport security",
-      "imageUrl": "/images/security.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Fsecurity.jpg?alt=media",
       "imageHint": "airport security suitcase"
     },
     {
       "id": "rail-image-2",
       "description": "Overhead locker luggage",
-      "imageUrl": "/images/overhead.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Foverhead.jpg?alt=media",
       "imageHint": "overhead locker luggage"
     },
     {
       "id": "features-section-image",
       "description": "Close-up of strap and buckle",
-      "imageUrl": "/images/features.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Ffeatures.jpg?alt=media",
       "imageHint": "luggage strap close up"
     },
     {
       "id": "full-width-journey",
       "description": "Travel lifestyle image",
-      "imageUrl": "/images/journey.jpg",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2Fjourney.jpg?alt=media",
       "imageHint": "travel lifestyle airport"
     }
   ]
