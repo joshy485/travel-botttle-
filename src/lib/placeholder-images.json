@@ -3,49 +3,49 @@
     {
       "id": "hero-background",
       "description": "Airport terminal hero image",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/hero.jpg.jpeg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/hero.jpg?alt=media",
       "imageHint": "airport terminal plane"
     },
     {
       "id": "how-it-works-1",
       "description": "Step 1: Loop It",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2FoGveJGIx6uAr2SSz6ToC%2Fhow-1.jpg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/how-1.jpg?alt=media",
       "imageHint": "luggage strap loop"
     },
     {
       "id": "how-it-works-2",
       "description": "Step 2: Secure It",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2FoGveJGIx6uAr2SSz6ToC%2Fhow-2.jpg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/how-2.jpg?alt=media",
       "imageHint": "secure luggage strap"
     },
     {
       "id": "how-it-works-3",
       "description": "Step 3: Lock It",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2FoGveJGIx6uAr2SSz6ToC%2Fhow-3.jpg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/how-3.jpg?alt=media",
       "imageHint": "lock luggage strap"
     },
     {
       "id": "security-feature-image",
       "description": "Suitcase going through airport security",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2FoGveJGIx6uAr2SSz6ToC%2Fsecurity.jpg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/security.jpg?alt=media",
       "imageHint": "airport security suitcase"
     },
     {
       "id": "rail-image-2",
       "description": "Overhead locker luggage",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2FoGveJGIx6uAr2SSz6ToC%2Foverhead.jpg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/overhead.jpg?alt=media",
       "imageHint": "overhead locker luggage"
     },
     {
       "id": "features-section-image",
       "description": "Close-up of strap and buckle",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2FoGveJGIx6uAr2SSz6ToC%2Ffeatures.jpg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/features.jpg?alt=media",
       "imageHint": "luggage strap close up"
     },
     {
       "id": "full-width-journey",
       "description": "Travel lifestyle image",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/website%20photos%2FoGveJGIx6uAr2SSz6ToC%2Fjourney.jpg?alt=media",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-2809710753-e6d64.appspot.com/o/journey.jpg?alt=media",
       "imageHint": "travel lifestyle airport"
     }
   ]
