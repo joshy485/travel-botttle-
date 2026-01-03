@@ -3,7 +3,7 @@
     {
       "id": "hero-background",
       "description": "Airport terminal hero image",
-      "imageUrl": "/images/hero-v2.jpg",
+      "imageUrl": "/images/hero-new.jpg",
       "imageHint": "airport terminal plane"
     },
     {
@@ -15,37 +15,37 @@
     {
       "id": "how-it-works-2",
       "description": "Step 2: Secure It",
-      "imageUrl": "/images/how-2.jpg",
+      "imageUrl": "/images/overhead.jpg",
       "imageHint": "secure luggage strap"
     },
     {
       "id": "how-it-works-3",
       "description": "Step 3: Lock It",
-      "imageUrl": "/images/how-3.jpg",
+      "imageUrl": "/images/journey.jpg",
       "imageHint": "lock luggage strap"
     },
     {
       "id": "security-feature-image",
       "description": "Suitcase going through airport security",
-      "imageUrl": "/images/security.jpg",
+      "imageUrl": "/images/how-2.jpg",
       "imageHint": "airport security suitcase"
     },
     {
       "id": "rail-image-2",
       "description": "Overhead locker luggage",
-      "imageUrl": "/images/overhead.jpg",
+      "imageUrl": "/images/rail-new.jpg",
       "imageHint": "overhead locker luggage"
     },
     {
       "id": "features-section-image",
       "description": "Close-up of strap and buckle",
-      "imageUrl": "/images/features.jpg",
+      "imageUrl": "/images/features-new.jpg",
       "imageHint": "luggage strap close up"
     },
     {
       "id": "full-width-journey",
       "description": "Travel lifestyle image",
-      "imageUrl": "/images/journey.jpg",
+      "imageUrl": "/images/how-3.jpg",
       "imageHint": "travel lifestyle airport"
     }
   ]
